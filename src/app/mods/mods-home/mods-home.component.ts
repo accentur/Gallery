@@ -9,6 +9,16 @@ export class ModsHomeComponent {
 
   modal = false;
 
+  items = [
+    {
+      title:'title1', content:'aaaaa'
+    },{
+      title:'title2', content:'bbbbb'
+    },{
+      title:'title3', content:'ccccc'
+    }
+  ];
+
 onClick() {
   this.modal = !this.modal;
 }
